@@ -22,3 +22,15 @@ You must solve the problem without using any built-in library for handling large
 
 ### source:
 https://leetcode.com/problems/add-strings/
+
+## 2. Activity selection
+### greedy
+### Problem statement:
+Given an array of intervals where `intervals[i]` = `[starti, endi]`, Select the maximum number of activities that can be performed by a single person, assuming that a person can only work on a single activity at a given day.
+
+### status:
+- solved.
+- tested with **Googletest**.
+- Runtime: less than 1 s.
+- Language: C++.
+

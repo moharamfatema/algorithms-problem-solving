@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include <string>
-#include "main.cpp"
+#include "sumOfStr.cpp"
 
 TEST(TestSumOfStr,TestCorrectness){
     std::string num1, num2;
