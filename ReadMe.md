@@ -33,4 +33,22 @@ Given an array of intervals where `intervals[i]` = `[starti, endi]`, Select the 
 - tested with **Googletest**.
 - Runtime: less than 1 s.
 - Language: C++.
+### source: Analysis and design of algorithms course (uni).
 
+## 3. Longest Common Subsequence
+## Dynamic programming
+### Problem statement:
+Given two strings `text1` and `text2`, return the length of their longest **common subsequence**. If there is no common subsequence, return `0`.
+
+A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+
+    For example, "ace" is a subsequence of "abcde".
+
+A common subsequence of two strings is a subsequence that is common to both strings.
+
+### status:
+- solved.
+- tested with **Googletest**.
+- Runtime: 8 ms.
+- Memory: 10.5 MB.
+- Language: C++.
