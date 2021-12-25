@@ -3,10 +3,15 @@
 
 TEST(TestLCS,TestCorrectLength)
 {
-    std::string x = "ABCBDAB";
-    std::string y = "BDCABA";
     Solution solution;
-    EXPECT_EQ( solution.longestCommonSubsequence(x,y), 4);
-    EXPECT_EQ( solution.longestCommonSubsequence("abcde","ace"), 3);
-
+    EXPECT_EQ( solution.longestCommonSubsequence("ABCBDAB","BDCABA",false), 4);
+    EXPECT_EQ( solution.longestCommonSubsequence("abcde","ace",false), 3);
+}
+TEST(TestLCS, TestCorrectSequence)
+{
+    Solution solution;
+    solution.longestCommonSubsequence("ABCBDAB","BDCABA",true);
+    ASSERT_EQ(solution.actualSequence, "BCBA");
+    solution.longestCommonSubsequence("abcde","ace",true);
+    ASSERT_EQ(solution.actualSequence, "ace");
 }

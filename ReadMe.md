@@ -23,6 +23,7 @@ You must solve the problem without using any built-in library for handling large
 ### source:
 https://leetcode.com/problems/add-strings/
 
+-------------------
 ## 2. Activity selection
 ### greedy
 ### Problem statement:
@@ -34,9 +35,9 @@ Given an array of intervals where `intervals[i]` = `[starti, endi]`, Select the 
 - Runtime: less than 1 s.
 - Language: C++.
 ### source: Analysis and design of algorithms course (uni).
-
+--------------------
 ## 3. Longest Common Subsequence
-## Dynamic programming
+### Dynamic programming
 ### Problem statement:
 Given two strings `text1` and `text2`, return the length of their longest **common subsequence**. If there is no common subsequence, return `0`.
 
