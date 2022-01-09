@@ -1,6 +1,8 @@
 # What is this?
 
-this repo will contain a combination of uni assignments, interview questions, online problem solving contests, etc..
+this repo will contain a combination of uni assignments, interview questions, online problem solving contests, etc..  
+
+---  
 
 ## 1. Sum of Strings:
 
@@ -23,7 +25,7 @@ You must solve the problem without using any built-in library for handling large
 ### source:
 https://leetcode.com/problems/add-strings/
 
--------------------
+---  
 ## 2. Activity selection
 ### greedy
 ### Problem statement:
@@ -35,7 +37,7 @@ Given an array of intervals where `intervals[i]` = `[starti, endi]`, Select the 
 - Runtime: less than 1 s.
 - Language: C++.
 ### source: Analysis and design of algorithms course (uni).
---------------------
+---  
 ## 3. Longest Common Subsequence
 ### Dynamic programming
 ### Problem statement:
@@ -53,7 +55,7 @@ A common subsequence of two strings is a subsequence that is common to both stri
 - Runtime: 8 ms.
 - Memory: 10.5 MB.
 - Language: C++.
-
+---
 ## 4. Robot Bounded In Circle
 ### Topics :  
     Math , String, Simulation.     
@@ -76,3 +78,22 @@ Return `true` if and only if there exists a circle in the plane such that the ro
 - Language: C++.
 
 ### Source: https://leetcode.com/problems/robot-bounded-in-circle
+---  
+## 5. Course Schedule III
+### Topics :  
+    Greedy , Heap(Priority Queue).       
+### Problem statement:
+There are ``n`` different online courses numbered from ``1`` to `n`. You are given an array `courses` where `courses[i] = [durationi, lastDayi]` indicate that the ith course should be taken continuously for `durationi` days and must be finished before or on `lastDayi`.
+
+You will start on the 1st day and you cannot take two or more courses simultaneously.
+
+Return the maximum number of courses that you can take.
+
+### status:
+- solved.
+- tested with **Googletest**.
+- Runtime: 1036 ms.
+- Memory Usage: 84.1 MB.
+- Language: C++.
+
+### Source: https://leetcode.com/problems/course-schedule-iii
