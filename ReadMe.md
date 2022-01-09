@@ -11,9 +11,9 @@ this repo will contain a combination of uni assignments, interview questions, on
 2. `testsumofstr.cpp`
 
 ### Problem statement:
-Given two *non-negative integers*, `num1` and `num2` represented as *string*, return the sum of `num1` and `num2` as a *string*.
-
-You must solve the problem without using any built-in library for handling large integers (such as BigInteger). You must also not convert the inputs to integers directly.
+>Given two *non-negative integers*, `num1` and `num2` represented >as *string*, return the sum of `num1` and `num2` as a *string*.
+>
+>You must solve the problem without using any built-in library for >handling large integers (such as BigInteger). You must also not >convert the inputs to integers directly.
 
 ### status:
 - solved.
@@ -29,7 +29,7 @@ https://leetcode.com/problems/add-strings/
 ## 2. Activity selection
 ### greedy
 ### Problem statement:
-Given an array of intervals where `intervals[i]` = `[starti, endi]`, Select the maximum number of activities that can be performed by a single person, assuming that a person can only work on a single activity at a given day.
+>Given an array of intervals where `intervals[i]` = `[starti, endi]>`, Select the maximum number of activities that can be performed >by a single person, assuming that a person can only work on a >single activity at a given day.
 
 ### status:
 - solved.
@@ -41,13 +41,13 @@ Given an array of intervals where `intervals[i]` = `[starti, endi]`, Select the 
 ## 3. Longest Common Subsequence
 ### Dynamic programming
 ### Problem statement:
-Given two strings `text1` and `text2`, return the length of their longest **common subsequence**. If there is no common subsequence, return `0`.
-
-A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
-
-    For example, "ace" is a subsequence of "abcde".
-
-A common subsequence of two strings is a subsequence that is common to both strings.
+>Given two strings `text1` and `text2`, return the length of their >longest **common subsequence**. If there is no common >subsequence, return `0`.
+>
+>A subsequence of a string is a new string generated from the >original string with some characters (can be none) deleted >without changing the relative order of the remaining characters.
+>
+>    For example, "ace" is a subsequence of "abcde".
+>
+>A common subsequence of two strings is a subsequence that is >common to both strings.
 
 ### status:
 - solved.
@@ -60,15 +60,15 @@ A common subsequence of two strings is a subsequence that is common to both stri
 ### Topics :  
     Math , String, Simulation.     
 ### Problem statement:
-On an infinite plane, a robot initially stands at `(0, 0)` and faces `north`. The robot can receive one of three instructions:
-
-*    "G": go straight 1 unit;
-*    "L": turn 90 degrees to the left;
-*    "R": turn 90 degrees to the right.
-
-The robot performs the instructions given in order, and repeats them forever.
-
-Return `true` if and only if there exists a circle in the plane such that the robot never leaves the circle.
+>On an infinite plane, a robot initially stands at `(0, 0)` and >faces `north`. The robot can receive one of three instructions:
+>
+>*    "G": go straight 1 unit;
+>*    "L": turn 90 degrees to the left;
+>*    "R": turn 90 degrees to the right.
+>
+>The robot performs the instructions given in order, and repeats >them forever.
+>
+>Return `true` if and only if there exists a circle in the plane >such that the robot never leaves the circle.
 
 ### status:
 - solved.
@@ -83,7 +83,7 @@ Return `true` if and only if there exists a circle in the plane such that the ro
 ### Topics :  
     Greedy , Heap(Priority Queue).       
 ### Problem statement:
-There are ``n`` different online courses numbered from ``1`` to `n`. You are given an array `courses` where `courses[i] = [durationi, lastDayi]` indicate that the ith course should be taken continuously for `durationi` days and must be finished before or on `lastDayi`.
+>There are ``n`` different online courses numbered from ``1`` to `n`. You are given an array `courses` where `courses[i] = [durationi, lastDayi]` indicate that the ith course should be taken continuously for `durationi` days and must be finished before or on `lastDayi`.
 
 You will start on the 1st day and you cannot take two or more courses simultaneously.
 
