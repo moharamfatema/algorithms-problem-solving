@@ -4,29 +4,31 @@
 
 class Solution
 {
-    int auxMinCost( unsigned int n, unsigned int i, unsigned int j, std::vector<  unsigned int> cuts, std::vector<std::vector<unsigned int>> &dp)
+    int auxMinCost( 
+        std::vector<unsigned int>cuts,
+        std::vector<std::vector<unsigned int>> & dp,
+        unsigned int lo,
+        unsigned int hi
     {
+        if(lo > hi)
+            return 0;
+        if( dp[lo][hi] < UINT32_MAX)
+            return dp[lo][hi];
         unsigned int temp;
-        if (dp[i][n] != UINT32_MAX)
-            return dp[i][n];
-        if (i == j)
+        for(int i = lo; i <= hi; i++)
         {
-            dp[i][n] = 0;
-            return dp[i][n];
+            temp = cuts[hi+1] - cuts[lo-1] + auxMinCost(cuts,dp,lo,i-1) + auxMinCost(cuts,dp,i+1,hi);
+            if( temp < dp[lo][hi])
+                dp[lo][hi] = temp;
         }
-        for (int k = i; i < j + 1; i++)
-        {
-            temp = n + auxMinCost(cuts[k - 1], i, k - 1, cuts, dp) + auxMinCost(n - cuts[k - 1], k + 1, cuts.size(), cuts, dp);
-            if (temp < dp[i][n])
-                dp[i][n] = temp;
-        }
-        return dp[i][n];
+        return dp[lo][hi];
     }
 
 public:
     int minCost(  unsigned int n, std::vector<  unsigned int> cuts)
     {
         sort(cuts.begin(),cuts.end());
+        cuts.push_back(n);
         std::vector<std::vector<unsigned int>> dp;
         {
             std::vector<unsigned int> dprow;
@@ -40,6 +42,6 @@ public:
                 dprow.clear();
             }
         }
-        return auxMinCost(n,0,cuts.size(),cuts,dp);
+        return auxMinCost(cuts,dp,0,n);
     }
 };

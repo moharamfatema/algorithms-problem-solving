@@ -53,3 +53,26 @@ A common subsequence of two strings is a subsequence that is common to both stri
 - Runtime: 8 ms.
 - Memory: 10.5 MB.
 - Language: C++.
+
+## 4. Robot Bounded In Circle
+### Topics :  
+    Math , String, Simulation.     
+### Problem statement:
+On an infinite plane, a robot initially stands at `(0, 0)` and faces `north`. The robot can receive one of three instructions:
+
+*    "G": go straight 1 unit;
+*    "L": turn 90 degrees to the left;
+*    "R": turn 90 degrees to the right.
+
+The robot performs the instructions given in order, and repeats them forever.
+
+Return `true` if and only if there exists a circle in the plane such that the robot never leaves the circle.
+
+### status:
+- solved.
+- tested with **Googletest**.
+- Runtime: 0 ms, faster than 100.00% of C++ online submissions for Robot Bounded In Circle.
+- Memory Usage: 6.2 MB, less than 48.40% of C++ online submissions for Robot Bounded In Circle.
+- Language: C++.
+
+### Source: https://leetcode.com/problems/robot-bounded-in-circle
