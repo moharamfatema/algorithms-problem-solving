@@ -84,10 +84,10 @@ https://leetcode.com/problems/add-strings/
     Greedy , Heap(Priority Queue).       
 ### Problem statement:
 >There are ``n`` different online courses numbered from ``1`` to `n`. You are given an array `courses` where `courses[i] = [durationi, lastDayi]` indicate that the ith course should be taken continuously for `durationi` days and must be finished before or on `lastDayi`.
-
-You will start on the 1st day and you cannot take two or more courses simultaneously.
-
-Return the maximum number of courses that you can take.
+>
+>You will start on the 1st day and you cannot take two or more courses simultaneously.
+>
+>Return the maximum number of courses that you can take.
 
 ### status:
 - solved.
@@ -97,3 +97,19 @@ Return the maximum number of courses that you can take.
 - Language: C++.
 
 ### Source: https://leetcode.com/problems/course-schedule-iii
+---  
+## 6. Add Binary
+### Topics :  
+    Math , String, Bit Manipulation, Simulation.       
+### Problem statement:
+>Given two binary strings `a` and `b`, return their sum as a binary string.
+
+
+### status:
+- solved.
+- tested with **Googletest**.
+- Runtime: 3 ms. faster than 68.05% of C++ online submissions for Add Binary.
+- Memory Usage: 8.5 MB.
+- Language: C++.
+
+### Source: https://leetcode.com/problems/add-binary  
