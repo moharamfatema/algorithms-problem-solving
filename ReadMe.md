@@ -29,7 +29,10 @@ https://leetcode.com/problems/add-strings/
 ## 2. Activity selection
 ### greedy
 ### Problem statement:
->Given an array of intervals where `intervals[i]` = `[starti, endi]>`, Select the maximum number of activities that can be performed >by a single person, assuming that a person can only work on a >single activity at a given day.
+>Given an array of intervals where `intervals[i]` = `[starti, endi]
+>`, Select the maximum number of activities that can be performed 
+>by a single person, assuming that a person can only work on a 
+>single activity at a given day.
 
 ### status:
 - solved.
@@ -113,3 +116,26 @@ https://leetcode.com/problems/add-strings/
 - Language: C++.
 
 ### Source: https://leetcode.com/problems/add-binary  
+---  
+## 7. Sort Colors
+### Topics :  
+    Array, Sorting.       
+### Problem statement:
+>Given an array `nums` with `n` objects colored red, white, or blue, sort 
+>them 
+>**in-place** so that objects of the same color are adjacent, with the colors in 
+>the order red, white, and blue.
+>
+>We will use the integers `0`, `1`, and `2` to represent the color red, white, and 
+>blue, respectively.
+>
+>You must solve this problem without using the library's sort function.
+
+### status:
+- solved.
+- tested with **Googletest**.
+- Runtime:  0 ms, faster than 100.00% of C++ online submissions for Sort Colors.
+- Memory Usage: 8.4 MB.
+- Language: C++.
+
+### Source: https://leetcode.com/problems/sort-colors
