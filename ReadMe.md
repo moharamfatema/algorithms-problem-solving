@@ -139,3 +139,25 @@ https://leetcode.com/problems/add-strings/
 - Language: C++.
 
 ### Source: https://leetcode.com/problems/sort-colors
+---  
+## 8. Sum of Root To Leaf Binary Numbers 
+### Topics :  
+    Binary Tree, Depth-first-search.       
+### Problem statement:
+>You are given the `root` of a binary tree where each node has a value `0` >or `1`. Each root-to-leaf path represents a binary number starting with >the most significant bit.
+>
+>   * For example, if the path is` 0 -> 1 -> 1 -> 0 -> 1`, then this could >represent `01101` in binary, which is `13`.
+>
+>For all leaves in the tree, consider the numbers represented by the path >from the root to that leaf. Return the *sum of these numbers*.
+>
+>The test cases are generated so that the answer fits in a **32-bits** integer.
+
+### status:
+- solved.
+- tested with **Googletest**.
+- Runtime: 8 ms, faster than 53.68% of C++ online submissions for Sum of Root To Leaf Binary Numbers.
+- Memory Usage: 20.4 MB.
+- Language: C++.
+
+### Source: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers
+---  
