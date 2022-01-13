@@ -161,3 +161,18 @@ https://leetcode.com/problems/add-strings/
 
 ### Source: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers
 ---  
+## 9. Median of Two Sorted Arrays  
+### Topics :  
+    Array, Binary Search, Divide-And-Conquer.         
+### Problem statement:  
+>Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, return the median of the two sorted arrays.
+>
+>The overall run time complexity should be `O(log (m+n))`.
+
+### status:
+- In progress.
+- testing with **Googletest**.
+- Language: C++.
+
+### Source: https://leetcode.com/problems/median-of-two-sorted-arrays
+---  
