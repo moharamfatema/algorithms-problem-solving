@@ -33,4 +33,14 @@ TEST(testMedian,testCorrectness)
     correct = 3.0;
     EXPECT_DOUBLE_EQ(sol.findMedianSortedArrays(nums1,nums2),correct);
 
+    nums1 = {1,2,3,4};
+    nums2 = {5,6,7,8};
+    correct = 4.5;
+    EXPECT_DOUBLE_EQ(sol.findMedianSortedArrays(nums1,nums2),correct);
+
+    nums1 = {1,2,3};
+    nums2 = {4,5,6,7};
+    correct = 4.0;
+    EXPECT_DOUBLE_EQ(sol.findMedianSortedArrays(nums1,nums2),correct);
+
 }

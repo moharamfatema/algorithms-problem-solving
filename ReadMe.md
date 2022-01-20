@@ -161,7 +161,22 @@ https://leetcode.com/problems/add-strings/
 
 ### Source: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers
 ---  
-## 9. Median of Two Sorted Arrays  
+## 9. Radix Sort
+### Topics :  
+    Linear time sorting, Counting sort.
+
+### Problem Statement :
+> Sort the given array of non-negative integers `nums` in linear-time complexity `O(n)` and linear space `O(n)`.
+
+### Status:  
+- Solved.
+- tested on randomly generated arrays with **Googletest**.
+- Runtime for 1 array of size $10^{7}$ = 25.04 s.
+- Runtime for 1 array of size $10^{5}$ = 0.26 s.
+- Language: C++.
+
+--- 
+## 10. Median of Two Sorted Arrays  
 ### Topics :  
     Array, Binary Search, Divide-And-Conquer.         
 ### Problem statement:  
