@@ -1,12 +1,8 @@
 #include <vector>
+#include <map>
 
 class Solution
 {
-    std::vector<int> hash(std::vector<int> &nums)
-    {
-        return {};
-    }
-
 public:
     std::vector<int> twoSumBruteForce(std::vector<int> &nums, int target)
     {
@@ -24,7 +20,19 @@ public:
     }
     std::vector<int> twoSumHash(std::vector<int> &nums, int target)
     {
-        
+        std::map<int, int> hash;
+        int required;
+        for(int i = 0; i < nums.size(); i++)
+        {
+            required = target - nums[i];
+            auto requiredit = hash.find(required);
+            if(requiredit != hash.end())
+                return{i, requiredit->second};
+            else
+            {
+                hash[nums[i]] = i;
+            }
+        }
         return {};
     }
 };

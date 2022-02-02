@@ -210,3 +210,12 @@ https://leetcode.com/problems/add-strings/
 - Runtime: **605 ms**, faster than 17.41% of C++ online submissions for Two Sum.
 - Memory Usage: **10 MB**, less than 94.82% of C++ online submissions for Two Sum.
 - Language: C++.
+
+#### 2. Hash Map
+
+- Time Complexity: $O(n)$
+- Spacial Complexity: $O(n)$
+- tested with **Googletest**.
+- Runtime: **19 ms**, faster than 58.92% of C++ online submissions for Two Sum.
+- Memory Usage: **11 MB**, less than 23.81% of C++ online submissions for Two Sum.
+- Language: C++.

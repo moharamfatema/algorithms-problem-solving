@@ -3,6 +3,7 @@
 #include "Solution.cpp"
 
 using ::testing::ContainerEq;
+using ::testing::IsSupersetOf;
 
 class TestCase
 {
@@ -23,6 +24,13 @@ public:
     {
         EXPECT_THAT(sol.twoSumBruteForce(nums, target), ContainerEq(correct));
     }
+    void hashmap()
+    {
+        auto solution = sol.twoSumHash(nums, target);
+        EXPECT_EQ(solution.size(), 2);
+        EXPECT_THAT(solution, IsSupersetOf(correct));
+    }
+    
     static std::vector<TestCase> initialize()
     {
         std::vector<TestCase> testCases;
@@ -39,4 +47,11 @@ TEST(two_sum, two_sum_brute_force_correctnes)
 
     for (TestCase i : testCases)
         i.bruteForce();
+}
+TEST(two_sum, two_sum_hashmap_correctnes)
+{
+    auto testCases = TestCase::initialize();
+
+    for (TestCase i : testCases)
+        i.hashmap();
 }
