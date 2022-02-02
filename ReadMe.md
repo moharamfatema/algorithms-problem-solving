@@ -191,3 +191,22 @@ https://leetcode.com/problems/add-strings/
 
 ### Source: https://leetcode.com/problems/median-of-two-sorted-arrays
 ---  
+
+## 10. Two Sum  
+
+### Problem Statement
+
+> Given an array of integers `nums` and an integer `target`, return *indices* of the two numbers such that they add up to `target`.
+> You may assume that each input would have ***exactly* one solution**, and you may not use the *same* element twice.
+> You can return the answer in any order.
+
+### Aproaches  
+
+#### 1. Brute Force 
+
+- Time Complexity: $O(n^{2})$
+- Spacial Complexity: $O(1)$
+- tested with **Googletest**.
+- Runtime: **605 ms**, faster than 17.41% of C++ online submissions for Two Sum.
+- Memory Usage: **10 MB**, less than 94.82% of C++ online submissions for Two Sum.
+- Language: C++.

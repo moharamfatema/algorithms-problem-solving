@@ -17,14 +17,26 @@ public:
           correct(correct),
           target(target)
     {
-        EXPECT_THAT(sol.twoSum(nums, target), ContainerEq(correct));
+    }
+
+    void bruteForce()
+    {
+        EXPECT_THAT(sol.twoSumBruteForce(nums, target), ContainerEq(correct));
+    }
+    static std::vector<TestCase> initialize()
+    {
+        std::vector<TestCase> testCases;
+        testCases.push_back(TestCase({2, 7, 11, 15}, {0, 1}, 9));
+        testCases.push_back(TestCase({3, 2, 4}, {1, 2}, 6));
+        testCases.push_back(TestCase({3, 3}, {0, 1}, 6));
+        return testCases;
     }
 };
 
-TEST(two_sum, two_sum_correctnes_Test)
+TEST(two_sum, two_sum_brute_force_correctnes)
 {
-    std::vector<TestCase> testCases;
-    testCases.push_back(TestCase({2, 7, 11, 15}, {0, 1}, 9));
-    testCases.push_back(TestCase({3, 2, 4}, {1, 2}, 6));
-    testCases.push_back(TestCase({3, 3}, {0, 1}, 6));
+    auto testCases = TestCase::initialize();
+
+    for (TestCase i : testCases)
+        i.bruteForce();
 }
