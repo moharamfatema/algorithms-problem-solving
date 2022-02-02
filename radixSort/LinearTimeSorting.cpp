@@ -1,28 +1,7 @@
-#include <vector>
-#include <math.h>
-class Solution
+class LinearTimeSorting
 {
 public:
-    int max(std::vector<int> arr)
-    {
-        int maxn = arr[0];
-        for(int i : arr)
-        {
-            if (i > maxn)
-                maxn = i;
-        }
-        return maxn;
-    }
-    int noOfDigits(int a)
-    {
-        int n = 0;
-        while(a >= 1)
-        {
-            n++;
-            a /= 10;
-        }
-        return n;
-    }
+    
     std::vector<int> countingSort(std::vector<int> arr, int k)
     {
         std::vector<int> c, sorted;
@@ -95,9 +74,5 @@ public:
             sorted.push_back(pairs[k].first);
 
         return sorted;
-    }
-    std::vector<int> sortArray(std::vector<int>& nums)
-    {
-        return radixSort(nums,noOfDigits(max(nums)));
     }
 };
