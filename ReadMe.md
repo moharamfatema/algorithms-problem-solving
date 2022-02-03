@@ -200,7 +200,7 @@ https://leetcode.com/problems/add-strings/
 > You may assume that each input would have ***exactly* one solution**, and you may not use the *same* element twice.
 > You can return the answer in any order.
 
-### Aproaches  
+### Approaches  
 
 #### 1. Brute Force 
 
@@ -219,3 +219,37 @@ https://leetcode.com/problems/add-strings/
 - Runtime: **19 ms**, faster than 58.92% of C++ online submissions for Two Sum.
 - Memory Usage: **11 MB**, less than 23.81% of C++ online submissions for Two Sum.
 - Language: C++.
+
+### Source: https://leetcode.com/problems/two-sum/
+---  
+
+## 11. Four Sum II  
+
+### Problem Statement
+
+> Given four integer arrays `nums1`, `nums2`, `nums3`, and `nums4` all of length `n`, return the number of tuples `(i, j, k, l)` such that:
+> - `0 <= i, j, k, l < n`
+> - `nums1[i] + nums2[j] + nums3[k] + nums4[l] == 0`
+
+
+### Approaches  
+
+#### 1. Brute Force 
+
+- Time Complexity: $O(n^{4})$
+- Spacial Complexity: $O(1)$
+- tested with **Googletest**.
+- Language: C++.
+
+#### 2. Hash Map
+
+- Time Complexity: $O(n^{2})$
+- Spacial Complexity: $O(n^{2})$
+- tested with **Googletest**.
+- Runtime: **575 ms ms**.
+- Memory Usage: **25  MB**.
+- Language: C++.
+
+### Source: https://leetcode.com/problems/4sum-ii
+
+---  
