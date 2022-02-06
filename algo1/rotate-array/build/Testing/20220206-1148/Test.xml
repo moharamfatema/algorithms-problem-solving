@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220206-1148-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.16.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="Fatema-Moharam"
+	OSRelease="5.10.16.3-microsoft-standard-WSL2"
+	OSVersion="#1 SMP Fri Apr 2 22:23:49 UTC 2021"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="6237"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2712"
+	>
+	<Testing>
+		<StartDateTime>Feb 06 14:50 EET</StartDateTime>
+		<StartTestTime>1644151847</StartTestTime>
+		<TestList>
+			<Test>./rotate_array_2.correctnes</Test>
+			<Test>./rotate_array_1.correctnes</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>rotate_array_2.correctnes</Name>
+			<Path>.</Path>
+			<FullName>./rotate_array_2.correctnes</FullName>
+			<FullCommandLine>/home/moharamfatema/algorithms-problem-solving/rotate-array/build/runTests "--gtest_filter=rotate_array_2.correctnes" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0038441</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/moharamfatema/algorithms-problem-solving/rotate-array/build/runTests "--gtest_filter=rotate_array_2.correctnes" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJylkl1LwzAUhu/zK95LB2u76YVY8EJwDkFEtokXY4ysPV0D+ahJuinifzdtx9iEycBzEfLxnDfnPcmk1lroNRQX+qKHwhqFpDSKEmVKbrkquCfFEy7XxgpfKhdV1qwkqcgZuQmpiTU+MBG3ln8mq1rIPFnmVLlkbcxakifnI2ezg2XSLpvZsrk3zjL2bDylGLcIZuEEhZCeLG7R6S9b/eVlnBlrKfOaHJvf7mOByc7JEL5Nb5zs5q4WnmI2j/axwFiaFZfdOemNsEYr0oElH9XVL/hQ87gcNsfk9RltLP4o9T89bdoRZ1WVXl6neOBC1pbY6KMK0pSD3msuhf+EKeBLcoQNlzW5lAG6Vo41pb2VIishXIovXPVxc9NHNBwMmhHfgdhVeprt+MDOgYe7x6fR/Z9+cTGAcr1zu9jh8GFT9th5D+WJ2yg3W338DU49PyzX8fE9wcrL3XTaWRm0rIuPDXYKfUjhml6vSJptemYPGAvpO242ms7YD7bDHOA=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>rotate_array_1.correctnes</Name>
+			<Path>.</Path>
+			<FullName>./rotate_array_1.correctnes</FullName>
+			<FullCommandLine>/home/moharamfatema/algorithms-problem-solving/rotate-array/build/runTests "--gtest_filter=rotate_array_1.correctnes" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0038191</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/moharamfatema/algorithms-problem-solving/rotate-array/build/runTests "--gtest_filter=rotate_array_1.correctnes" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkDtrw0AMx3d/Co3JcL5mLWQotGQIpMVpp2DMxZbtg7tT0Mkp/fb1I4S40BBNevz0+CvrQrChAW9sWCyhZvKgW/KoPbWGja+NoDfauIbYSuujOjEdHXoVyZ37Vs0kPaMMs/nRx866ShcVnqJuiBqHglFU5PIm1GM4eMWwNy3LZEeCz7AZEfjsK1BbJ8iwhml+Mc4vVmlJzFhKwJgc1lfLIbsoWYGM7YOSix87K5gmB3W1HDaOjsZNdQxnyxQ8hp5FUd3pD3w7c35OcoDsawej5fdOnRB4397DYPEEPi4fXT7hIH3SLZPH9AkaVhV9h/n3/vsasAnpfE8v5eNlv397HRRPbJr8AuetwSo=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Feb 06 14:50 EET</EndDateTime>
+		<EndTestTime>1644151847</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

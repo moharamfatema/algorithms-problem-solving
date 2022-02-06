@@ -1,0 +1,29 @@
+Start testing: Feb 06 15:02 EET
+----------------------------------------------------------
+1/2 Testing: rotate_array_1.correctnes
+1/2 Test: rotate_array_1.correctnes
+Command: "/home/moharamfatema/algorithms-problem-solving/rotate-array/build/runTests" "--gtest_filter=rotate_array_1.correctnes" "--gtest_also_run_disabled_tests"
+Directory: /home/moharamfatema/algorithms-problem-solving/rotate-array/build
+"rotate_array_1.correctnes" start time: Feb 06 15:02 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/moharamfatema/algorithms-problem-solving/rotate-array/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = rotate_array_1.correctnes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from rotate_array_1
+[ RUN      ] rotate_array_1.correctnes
+[       OK ] rotate_array_1.correctnes (0 ms)
+[----------] 1 test from rotate_array_1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"rotate_array_1.correctnes" end time: Feb 06 15:02 EET
+"rotate_array_1.correctnes" time elapsed: 00:00:00
+----------------------------------------------------------
+

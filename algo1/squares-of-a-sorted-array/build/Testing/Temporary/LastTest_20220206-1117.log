@@ -1,0 +1,57 @@
+Start testing: Feb 06 13:36 EET
+----------------------------------------------------------
+2/2 Testing: squares_of_a_sorted_array_2_ptrs.correctnes
+2/2 Test: squares_of_a_sorted_array_2_ptrs.correctnes
+Command: "/home/moharamfatema/algorithms-problem-solving/squares-of-a-sorted-array/build/runTests" "--gtest_filter=squares_of_a_sorted_array_2_ptrs.correctnes" "--gtest_also_run_disabled_tests"
+Directory: /home/moharamfatema/algorithms-problem-solving/squares-of-a-sorted-array/build
+"squares_of_a_sorted_array_2_ptrs.correctnes" start time: Feb 06 13:36 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/moharamfatema/algorithms-problem-solving/squares-of-a-sorted-array/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = squares_of_a_sorted_array_2_ptrs.correctnes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from squares_of_a_sorted_array_2_ptrs
+[ RUN      ] squares_of_a_sorted_array_2_ptrs.correctnes
+[       OK ] squares_of_a_sorted_array_2_ptrs.correctnes (0 ms)
+[----------] 1 test from squares_of_a_sorted_array_2_ptrs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"squares_of_a_sorted_array_2_ptrs.correctnes" end time: Feb 06 13:36 EET
+"squares_of_a_sorted_array_2_ptrs.correctnes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+1/2 Testing: squares_of_a_sorted_array.correctnes
+1/2 Test: squares_of_a_sorted_array.correctnes
+Command: "/home/moharamfatema/algorithms-problem-solving/squares-of-a-sorted-array/build/runTests" "--gtest_filter=squares_of_a_sorted_array.correctnes" "--gtest_also_run_disabled_tests"
+Directory: /home/moharamfatema/algorithms-problem-solving/squares-of-a-sorted-array/build
+"squares_of_a_sorted_array.correctnes" start time: Feb 06 13:36 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/moharamfatema/algorithms-problem-solving/squares-of-a-sorted-array/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = squares_of_a_sorted_array.correctnes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from squares_of_a_sorted_array
+[ RUN      ] squares_of_a_sorted_array.correctnes
+[       OK ] squares_of_a_sorted_array.correctnes (0 ms)
+[----------] 1 test from squares_of_a_sorted_array (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"squares_of_a_sorted_array.correctnes" end time: Feb 06 13:36 EET
+"squares_of_a_sorted_array.correctnes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 06 13:36 EET

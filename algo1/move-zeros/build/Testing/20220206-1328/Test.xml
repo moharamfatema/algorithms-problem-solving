@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220206-1328-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.16.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="Fatema-Moharam"
+	OSRelease="5.10.16.3-microsoft-standard-WSL2"
+	OSVersion="#1 SMP Fri Apr 2 22:23:49 UTC 2021"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="6237"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2712"
+	>
+	<Testing>
+		<StartDateTime>Feb 06 15:45 EET</StartDateTime>
+		<StartTestTime>1644155125</StartTestTime>
+		<TestList>
+			<Test>./move_zeros_2.correctnes</Test>
+			<Test>./move_zeros_1.correctnes</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>move_zeros_2.correctnes</Name>
+			<Path>.</Path>
+			<FullName>./move_zeros_2.correctnes</FullName>
+			<FullCommandLine>/home/moharamfatema/algorithms-problem-solving/move-zeros/build/runTests "--gtest_filter=move_zeros_2.correctnes" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0046517</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/moharamfatema/algorithms-problem-solving/move-zeros/build/runTests "--gtest_filter=move_zeros_2.correctnes" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkE1rwzAMhu/5FTo2B8fbjoMeBhs9DLqRbqcQgpMqicG2gq1ksF+/fJSSDgLVSUKP9OpV2junXQNWabeLofZkQbZkUVpqlVe2VoxWSWUa8ppbG0TnqTRoRSAzjKMjOKD4RU9Blr02Z1mcsQuyIWoMMgYWwVerUs7llBWTalJV0ZEYn+EwI/A1dqDWhtHDHqbtxby9eEoq8h4rdhiibH+NHNKLi0fgeXhycclDrxmTKBPXyOFgqFRm6aMbtCdn0Y0ssui7f/B65/qYKIP0+whz5NtnLgB8vG9DsHsAG+L7ZBcYmFiZOLrPF6Py4kw/7vZrW98Cr1xyqzPa+Hw5nd5eJ68Lm0R//qW8lw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>move_zeros_1.correctnes</Name>
+			<Path>.</Path>
+			<FullName>./move_zeros_1.correctnes</FullName>
+			<FullCommandLine>/home/moharamfatema/algorithms-problem-solving/move-zeros/build/runTests "--gtest_filter=move_zeros_1.correctnes" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0055848</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/moharamfatema/algorithms-problem-solving/move-zeros/build/runTests "--gtest_filter=move_zeros_1.correctnes" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkE1rwzAMhu/5FTo2B8frddDDYKOHQTfS7RRCcFIlMdhWsJUM9uuXj1LSQaA6SeiRXr1Ke+e0a8Aq7XYx1J4syJYsSkut8srWitEqqUxDXnNrg+g8lQatCGSGcXQEBxS/6CnIstfmIosLdkE2RI1BxsAi+GpVyrmcsmJSTaoqOhHjMxxnBL7GDtTaMHo4wLS9mLcX+6Qi77FihyHKDrfIIb262APPw5OLax56zZhEmbhFDkdDpTJLH92gPTmLbmSRRd/9g9c718dEGaTfJ5gj3z5zAeDjfRuC3RPYED8mu8DAxMrE0WO+GJUXF/px91/b+hZ45ZJ7ndHG58v5/PY6eV3YJPoD+dm8kg==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Feb 06 15:45 EET</EndDateTime>
+		<EndTestTime>1644155125</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
