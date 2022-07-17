@@ -1,5 +1,6 @@
 */build
-*/CMakeLists.txt
+*/**/CMakeLists.txt
 .vscode
 */CMakeFiles
 */CMakeCache.txt
+*/**/build

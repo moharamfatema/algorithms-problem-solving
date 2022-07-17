@@ -58,11 +58,10 @@ TEST(rotate_array_2, correctnes)
     for (TestCase i : testCases)
         i.go2();
 }
-/*TEST(rotate_array_3, correctnes)
+TEST(rotate_array_3, correctnes)
 {
     auto testCases = TestCase::init();
 
     for (TestCase i : testCases)
         i.go3();
 }
-*/

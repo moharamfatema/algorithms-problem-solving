@@ -1,4 +1,5 @@
 #include <vector>
+using namespace std;
 
 class Solution
 {
@@ -22,7 +23,42 @@ class Solution
         return start;
     }
 
+int negToPos(vector<int> nums)
+    {
+        int start = 0;
+        int end = nums.size() - 1;
+        int mid;
+        
+        while(end >= start)
+        {
+            mid = start + (end - start) / 2;
+            if (start == end || nums[mid] == 0 || (nums[mid] > 0 && nums[mid - 1] < 0))
+                return mid;
+            else if(nums[mid] > 0)
+                end = mid - 1;
+            else
+                start = mid + 1;
+        }
+        return 0;
+    }
 public:
+    vector<int> sortedSquares2(vector<int>& nums) {
+        vector<int> squares (nums.size());
+        int i = negToPos(nums);
+        int j = i - 1;
+        if (j < 0)
+            return {nums[0] * nums[0]};
+        int n = 0;
+        while(j >= 0 && i < nums.size())
+        {
+            if (nums[i] * nums[i] <= nums[j] * nums[j])
+                squares[n++] = nums[i] * nums[i++];
+            else
+                squares[n++] = nums[j] * nums[j++];
+        }
+        squares[n] = nums[j] * nums[j];
+        return squares;
+    }
     std::vector<int> sortedSquares(std::vector<int> &nums)
     {
         std::vector<int> sq;

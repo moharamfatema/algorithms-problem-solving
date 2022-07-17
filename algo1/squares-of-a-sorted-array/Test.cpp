@@ -22,6 +22,10 @@ public:
     {
         EXPECT_EQ(sol.sortedSquaresTwoPtrs(nums), correct);
     }
+    void go2()
+    {
+        EXPECT_EQ(sol.sortedSquares2(nums), correct);
+    }
     static std::vector<TestCase> init()
     {
         std::vector<TestCase> testCases;
@@ -44,4 +48,11 @@ TEST(squares_of_a_sorted_array_2_ptrs, correctnes)
 
     for (TestCase i : testCases)
         i.go2ptrs();
+}
+TEST(squares_of_a_sorted_array_2, correctnes)
+{
+    auto testCases = TestCase::init();
+
+    for (TestCase i : testCases)
+        i.go2();
 }

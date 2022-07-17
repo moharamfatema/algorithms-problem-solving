@@ -1,5 +1,0 @@
-add_test( rotate_array_1.correctnes /home/moharamfatema/algorithms-problem-solving/rotate-array/build/runTests [==[--gtest_filter=rotate_array_1.correctnes]==] --gtest_also_run_disabled_tests)
-set_tests_properties( rotate_array_1.correctnes PROPERTIES WORKING_DIRECTORY /home/moharamfatema/algorithms-problem-solving/rotate-array/build)
-add_test( rotate_array_2.correctnes /home/moharamfatema/algorithms-problem-solving/rotate-array/build/runTests [==[--gtest_filter=rotate_array_2.correctnes]==] --gtest_also_run_disabled_tests)
-set_tests_properties( rotate_array_2.correctnes PROPERTIES WORKING_DIRECTORY /home/moharamfatema/algorithms-problem-solving/rotate-array/build)
-set( runTests_TESTS rotate_array_1.correctnes rotate_array_2.correctnes)

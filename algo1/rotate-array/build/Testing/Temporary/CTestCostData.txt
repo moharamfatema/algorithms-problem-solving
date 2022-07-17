@@ -1,5 +1,0 @@
-rotate_array_1.correctnes 9 0.00580552
-rotate_array_2.correctnes 0 0
-rotate_array_3.correctnes 0 0
----
-rotate_array_2.correctnes
