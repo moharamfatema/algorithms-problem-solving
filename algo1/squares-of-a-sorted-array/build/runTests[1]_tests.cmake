@@ -1,5 +1,0 @@
-add_test( squares_of_a_sorted_array.correctnes /home/moharamfatema/algorithms-problem-solving/squares-of-a-sorted-array/build/runTests [==[--gtest_filter=squares_of_a_sorted_array.correctnes]==] --gtest_also_run_disabled_tests)
-set_tests_properties( squares_of_a_sorted_array.correctnes PROPERTIES WORKING_DIRECTORY /home/moharamfatema/algorithms-problem-solving/squares-of-a-sorted-array/build)
-add_test( squares_of_a_sorted_array_2_ptrs.correctnes /home/moharamfatema/algorithms-problem-solving/squares-of-a-sorted-array/build/runTests [==[--gtest_filter=squares_of_a_sorted_array_2_ptrs.correctnes]==] --gtest_also_run_disabled_tests)
-set_tests_properties( squares_of_a_sorted_array_2_ptrs.correctnes PROPERTIES WORKING_DIRECTORY /home/moharamfatema/algorithms-problem-solving/squares-of-a-sorted-array/build)
-set( runTests_TESTS squares_of_a_sorted_array.correctnes squares_of_a_sorted_array_2_ptrs.correctnes)

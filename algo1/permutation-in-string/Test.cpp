@@ -17,8 +17,10 @@ public:
 
     void go1()
     {
-        bool res = sol.checkInclusion(s1,s2);
-        EXPECT_EQ(res, correct);
+        if (correct)
+            EXPECT_TRUE(sol.checkInclusion(s1,s2));
+        else
+            EXPECT_FALSE(sol.checkInclusion(s1,s2));
     }
     static std::vector<TestCase> init()
     {
@@ -30,7 +32,7 @@ public:
     }
 };
 
-TEST(permutation, correctnes)
+TEST(test_permutation, correctnes)
 {
     auto testCases = TestCase::init();
 

@@ -1,6 +1,6 @@
 #include <map>
-#include<string>
-
+#include <string>
+#include <iostream>
 class Solution {
     bool isPermutation(std::string s1, std::string s2)
     {
@@ -33,6 +33,7 @@ class Solution {
     }
 public:
     bool checkInclusion(std::string s1, std::string s2) {
+        /*
         std::string newstr = "";
         if(s1.size() < 1) return true;
         for (int i = 0; i < s2.size() - s1.size() + 1; i++)
@@ -43,6 +44,12 @@ public:
             if(isPermutation(s1, newstr))
                 return true;
         }
+        */
         return false;
     }
 };
+/*int main(){
+    Solution sol;
+    std::cout << sol.checkInclusion("ab","eidbaooo");
+    return 0;
+}*/

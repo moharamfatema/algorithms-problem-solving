@@ -1,5 +1,0 @@
-add_test( binary_search.correctnes /home/moharamfatema/algorithms-problem-solving/bin-search/build/runTests [==[--gtest_filter=binary_search.correctnes]==] --gtest_also_run_disabled_tests)
-set_tests_properties( binary_search.correctnes PROPERTIES WORKING_DIRECTORY /home/moharamfatema/algorithms-problem-solving/bin-search/build)
-add_test( first_bad_version.correctness /home/moharamfatema/algorithms-problem-solving/bin-search/build/runTests [==[--gtest_filter=first_bad_version.correctness]==] --gtest_also_run_disabled_tests)
-set_tests_properties( first_bad_version.correctness PROPERTIES WORKING_DIRECTORY /home/moharamfatema/algorithms-problem-solving/bin-search/build)
-set( runTests_TESTS binary_search.correctnes first_bad_version.correctness)

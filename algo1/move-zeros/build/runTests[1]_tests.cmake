@@ -1,5 +1,0 @@
-add_test( move_zeros_1.correctnes /home/moharamfatema/algorithms-problem-solving/move-zeros/build/runTests [==[--gtest_filter=move_zeros_1.correctnes]==] --gtest_also_run_disabled_tests)
-set_tests_properties( move_zeros_1.correctnes PROPERTIES WORKING_DIRECTORY /home/moharamfatema/algorithms-problem-solving/move-zeros/build)
-add_test( move_zeros_2.correctnes /home/moharamfatema/algorithms-problem-solving/move-zeros/build/runTests [==[--gtest_filter=move_zeros_2.correctnes]==] --gtest_also_run_disabled_tests)
-set_tests_properties( move_zeros_2.correctnes PROPERTIES WORKING_DIRECTORY /home/moharamfatema/algorithms-problem-solving/move-zeros/build)
-set( runTests_TESTS move_zeros_1.correctnes move_zeros_2.correctnes)

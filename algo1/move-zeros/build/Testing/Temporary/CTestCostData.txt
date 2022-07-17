@@ -1,3 +1,0 @@
-move_zeros_1.correctnes 3 0.0052754
-move_zeros_2.correctnes 1 0.0046517
----

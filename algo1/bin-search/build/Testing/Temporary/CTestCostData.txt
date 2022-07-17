@@ -1,4 +1,0 @@
-binary_search.correctnes 3 0.00327207
-first_bad_version.correctness 0 0
----
-first_bad_version.correctness
